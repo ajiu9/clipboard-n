@@ -33,7 +33,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "fallbacks"
   ],
   "scripts": {
     "build": "unbuild",
@@ -45,6 +46,11 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "execa": "^9.5.2",
+    "is-wsl": "^3.1.0",
+    "is64bit": "^2.0.0"
   },
   "devDependencies": {
     "@ajiu9/eslint-config": "^2.5.0",
