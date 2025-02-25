@@ -18,8 +18,10 @@ clipboard.read()
 ```
 
 ## API
-clipboard
-.write(text)
+**clipboard**
+
+**.write(text)**
+
 Write (copy) to the clipboard asynchronously.
 
 Returns a Promise.
@@ -29,12 +31,14 @@ Type: string
 
 The text to write to the clipboard.
 
-.read()
+**.read()**
+
 Read (paste) from the clipboard asynchronously.
 
 Returns a Promise.
 
-.writeSync(text)
+**.writeSync(text)**
+
 Write (copy) to the clipboard synchronously.
 
 text
@@ -42,7 +46,8 @@ Type: string
 
 The text to write to the clipboard.
 
-.readSync()
+**.readSync()**
+
 Read (paste) from the clipboard synchronously.
 
 ## License
